@@ -1,0 +1,93 @@
+ /* Estilos personalizados carrousel - navbar */
+        body {
+            background-color: #f8f9fa; 
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        
+        .carousel-item img {
+            height: 400px;
+            object-fit: cover;
+            width: 100%;
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            padding: 10px;
+        }
+        
+        .hero-banner {
+            background-color: #ff7f00; 
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .hero-banner img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Estilos adicionales específicos para programas.html */
+        /* Ejemplo: altura uniforme */
+        .card-img-top {
+            height: 180px; /* Altura fija para las imágenes de la tarjeta */
+            object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        /* Estilos para las páginas de detalle de programas (tec_sistemas.html, tec_contabilidad.html, tec_mercadeo.html) */
+        .program-detail-img {
+            max-width: 50%; /* Ejemplo: reducir el ancho máximo al 50% del contenedor */
+            height: auto;
+            display: block;
+            margin: 30px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .profile-box {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            border-radius: 8px; 
+            height: 100%; /* Asegura que ambas cajas tengan la misma altura si el contenido es diferente */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .profile-box h2 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        .profile-box ul {
+            list-style: none;
+            padding-left: 0;
+            flex-grow: 1;
+        }
+        .profile-box ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+        .profile-box ul li::before {
+            content: "\2022"; /* Carácter de viñeta (bullet point) */
+            color: white; /* Color de la viñeta */
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+         /* Estilos específicos para la página de contacto */
+        .form-container {
+            max-width: 800px; /* Ancho máximo para el formulario */
+            margin: 0 auto; /* Centra el formulario */
+            padding: 30px;
+            border: 1px solid #dee2e6; /* Borde sutil */
+            border-radius: 8px;
+            background-color: #fff; /* Fondo blanco para el formulario */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Sombra suave */
+        }
