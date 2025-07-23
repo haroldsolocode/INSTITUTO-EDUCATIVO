@@ -91,3 +91,50 @@
             background-color: #fff; /* Fondo blanco para el formulario */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.05); /* Sombra suave */
         }
+
+        /* Estilos específicos para la página de login */
+        body {
+            background-color: #f8f9fa; /* Fondo claro */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la ventana */
+        }
+        .login-container {
+            flex-grow: 1; 
+            display: flex;
+            align-items: center; /* Centra verticalmente el formulario */
+            justify-content: center; /* Centra horizontalmente el formulario */
+            padding: 20px;
+        }
+        .login-card {
+            max-width: 400px; /* Ancho máximo para la tarjeta de login */
+            width: 100%; /* Ocupa todo el ancho disponible hasta el max-width */
+            padding: 30px;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            background-color: #fff; /* Fondo blanco para la tarjeta */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+            text-align: center; /* Centra el contenido dentro de la tarjeta */
+        }
+        .login-card h5 {
+            margin-bottom: 25px;
+            color: #343a40;
+        }
+        .login-card .form-label {
+            display: block; /* Asegura que la etiqueta esté en su propia línea */
+            text-align: left; /* Alinea el texto de la etiqueta a la izquierda */
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .login-card .form-control {
+            margin-bottom: 15px; /* Espacio debajo de cada campo */
+        }
+        .login-card .btn {
+            width: 100%; /* El botón ocupa todo el ancho de la tarjeta */
+            margin-top: 10px;
+        }
+        .login-card .institute-name {
+            margin-top: 25px;
+            color: #6c757d; /* Color de texto más tenue */
+            font-size: 0.9em;
+        }
